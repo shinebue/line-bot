@@ -11,7 +11,7 @@ $bot = new BOT_API($channelSecret, $access_token);
 	
 if (!empty($bot->isEvents)) {
 		
-	$bot->replyMessageNew($bot->replyToken, "ทดสอบ ตอบกลับ");
+	$bot->replyMessageNew($bot->replyToken, 'ทดสอบ ตอบกลับ');
 
 	if ($bot->isSuccess()) {
 		echo 'Succeeded!';
